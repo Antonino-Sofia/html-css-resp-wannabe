@@ -132,3 +132,23 @@ img {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.lessons .col {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.row {
+  flex-direction: column;
+  align-items: center;
+}
